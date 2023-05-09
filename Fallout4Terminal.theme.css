@@ -43,9 +43,10 @@
   --title-image-width: 240px; /* The width of the title image */
   --title-image-height: 14px; /* The height of the title image */
   
-  -webkit-transform:translateZ(0.1px);
-  -moz-transform:translateZ(0.1px);
-  -o-transform:translateZ(0.1px);
-  -ms-transform:translateZ(0.1px);
-  transform:translateZ(0.1px);
+  will-change: transform;
+  -webkit-transform: translateZ(0);
+  -moz-transform: translateZ(0);
+  -ms-transform: translateZ(0);
+  -o-transform: translateZ(0);
+  transform: translateZ(0);
 }
